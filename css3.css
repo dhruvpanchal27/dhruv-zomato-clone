@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+#collaction{
+    margin-top: 100px;
+    /* border: 2px solid red; */
+}
+
+#collaction h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #1c1c1c;
+}
+
+#col-description{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+#col-description p{
+    color: #363636;
+    font-size: 18px;
+}
+
+#col-description a{
+    color: #ff7e88;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#col-description i{
+    margin-left:10px;
+}
+
+#col-list{
+    display:flex ;
+    overflow: hidden;
+    gap:10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    height:320px;
+    width: 100%;
+    /* border:2px solid red; */
+}
+
+#col-option{
+    height: 100%;
+    width: 100%;
+    max-width: 25%;
+    position: relative;
+}
+
+#col-option #col-img{
+    height: 100%;
+    width: 100;
+}
+
+#col-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+
+#list-overlay{
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+}
+
+#overlay-info{
+    position: absolute;
+    bottom: 0;
+    padding: 0 16px 10px 16px;
+}
+
+#overlay-info p{
+    color: #fff;
+    font-size: 18px;
+}
+
+#overlay-info a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#overlay-info i{
+    margin-left: 7px;
+}
