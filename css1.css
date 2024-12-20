@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+header{
+    height: 60vh;
+    background: url(/bgzomato.jpeg);
+    background-size:cover;
+    background-position:center center;
+}
+
+#app{
+    display: flex;
+    gap: 5px;
+}
+
+#subhead{
+    height:72px;
+    /* background-color:red; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-around;
+    color:white;
+}
+
+#menu ul{
+    list-style: none;
+    display: flex;
+    gap:50px;
+    color:white;
+    font-size: 18px;
+}
+
+#logo_text_search{
+    /* border:3px solid green; */
+    display:flex;
+    flex-direction:column;
+    height:calc( 60vh - 72px );
+    align-items: center;
+}
+
+#logo img{
+    height:70px;
+    width:300px;
+    margin-bottom:30px ;
+}
+
+#text h2{
+    color:white;
+    margin-bottom:20px ;
+    font-weight:lighter;
+    font-size:xx-large;
+
+}
+
+#searchContainer{
+    background-color: #fff;
+    margin-top: 30px;
+    padding:15px 25px;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+}
+
+#searchContainer #location{
+    display: flex;
+    align-items: center;
+    border-right: 2px solid #cfcfcf;
+    padding-right: 10px;
+}
+
+#searchContainer input{
+    border: none;
+}
+
+#searchContainer #restorent{
+    margin-left: 20px;
+}
+
+#searchContainer #restorent span{
+    color: #c9c8c8;
+}
