@@ -1,0 +1,136 @@
+footer{
+    height: 508px;
+    background: color #f8f8f8;;
+}
+
+#main-footer{
+    /* border:2px solid red; */
+    height: 508px;
+    width: 100%;
+    max-width: 1100px;
+    padding:48px 0 22px;
+    margin: auto;
+}
+
+#main-footer #photo-india-languge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#main-footer #photo-india-languge #footer-flex-boxes{
+    display: flex;
+    gap: 10px;
+}
+
+#main-footer #photo-india-languge #zomato-black-img img{
+    height: 28px;
+    width: 132px;
+}
+
+#main-footer #photo-india-languge .india-flage{
+    border: 1px solid #b5b5b5;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 110px;
+    height: 38px;
+    padding: 3px 7px;
+}
+
+#main-footer #photo-india-languge #flage{
+    /* border: 2px solid pink; */
+    background: url(indias-flage.avif)-141px 0px no-repeat;
+    width: 45px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 30px;
+    
+}
+
+#main-footer #photo-india-languge #india-for-flag-button span{
+    color: #1c1c1c;
+    font-size:18px ;
+    margin-right:5px;
+
+}
+
+#main-footer #photo-india-languge #input-language{
+    border: 1px solid #b5b5b5;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 110px;
+    height: 38px;
+    padding:7px;
+}
+
+#main-footer #photo-india-languge #input-language #language-footer span{
+    color:#1c1c1c;
+    font-size:18px ;
+    margin-right:5px;
+}
+
+#for-footer-part{
+    /* border: 2px solid aqua; */
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container{
+    /* border: 2px solid aqua; */
+    width: 20%;
+    height: 239px;
+}
+
+#for-footer-part .footer-head6{
+    margin-bottom:12px;
+}
+
+#for-footer-part .footer-head6 h6{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+}
+
+#for-footer-part #footer-para-all p{
+    color:#696969;
+    font-size: 15px;
+    margin: 5px 0 ;
+}
+
+.app-play-store-logo i{
+    margin-right: 3px;
+    margin-bottom: 25px;
+
+}
+
+#footer-Social-links .store-imge{
+    margin-bottom: 10px;
+    
+}
+
+hr{
+    border: 1px solid #cfcfcf;
+    margin:50px 0 8px;
+}
+
+#footer-paregraph{
+    margin:23px 0 13px;
+}
+
+#footer-paregraph p{
+    font-size: 15px;
+    margin:23px 0 13px;
+    color:#4f4f4f;
+    line-height: 17px;
+}
