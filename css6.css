@@ -1,0 +1,28 @@
+#explore-option{
+    /* border:2px solid red; */
+    margin:auto;
+    margin: 50px auto;
+    width: 1100px;
+}
+
+.text-pera{
+    font-size: 30px;
+    color: #363636;
+    margin-bottom: 20px;
+}
+
+.head-of-explore{
+    border:1px solid #9c9c9c;
+    border-radius:6px ;    
+    padding:20px 24px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.head-of-explore h5{
+    font-weight: 300;
+    font-size: 20px;
+}
