@@ -1,0 +1,121 @@
+#app-section{
+    background-color: #fffbf7;
+    padding-top:30px;
+}
+
+.app-container{
+    /* border: 2px solid red; */
+    width:100%;
+    max-width: 900px;
+    margin: auto;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container .mobile-imge{
+    /* border: 2px solid red; */
+
+    height: 100%;
+    width: 50%;
+    margin-right: 20px;
+
+}
+
+.mobile-imge img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.app-info{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.app-info .app-title h2{
+    font-size: 44px;
+    color: #1c1c1c;
+    margin-bottom: 15px;
+}
+
+.app-info .app-title p{
+    font-size: 16px;
+    color: #363636;
+    margin-bottom: 25px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.app-option{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    
+}
+
+input[type="radio"]{
+    accent-color: #ef4f5f;
+    height:16px ;
+    width: 16px;
+    margin-right: 5px;
+}
+
+label{
+    font-size: 16px;
+    color: #1c1c1c;
+}
+
+.input-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.input-container input{
+    padding: 13px 12px;
+    width: 100%;
+    /* height:48px; */
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    color:#1c1c1c;
+    border-radius: 6px;
+}
+
+.input-container button{
+    min-width: 150px;
+    border: none;
+    background-color: #ef4f5f;
+    border-radius: 6px;
+    padding: 0 16px;
+    font-size: 16px;
+    color:#fff;
+}
+
+.store-container p{
+    font-size: 14px;
+    margin-bottom:15px;
+    color:#9c9c9c;
+}
+
+.store-imge{
+    display: flex;
+    gap:20px;
+    
+}
+
+.store-imge img{
+    object-fit: cover;
+    width: 137px;
+    /* width: 100%; 
+    height: 100%;
+    background-position: center center;
+    background-size: cover; */
+}
